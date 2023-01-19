@@ -2,30 +2,35 @@
 This is a repository for assignment 3 of the Software Quality Engineering course at the [Ben-Gurion University](https://in.bgu.ac.il/), Israel.
 
 ## Assignment Description
-In this assignment, we tested an open-source software called [$$*TODO* software name$$](https://address-of-the-project.com).
+In this assignment, we tested an open-source software called Moodle (https://download.moodle.org/releases/latest/).
 
-$$*TODO* Add some general description about the software$$
+Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments. It is designed to support a wide range of learning activities, including online quizzez, fourms and assignment submissions. It is written in PHP and uses MySQL database to store data and is widely used in schools and universities.
 
 ## Installation
-$$*TODO* Write instructions on how to install the software and prepare the testing environment$$
+There are a couple ways to install Moodle I will explain one of them. 
+First of all you need to download Moodle, you can open the link listed above at that page you can find another link called "Moodle installer package for" click on the one that is the same as your device, in my case windows. After that download the last stable version and extract it, then run the "Start Moodle.exe" file and it will set up moodle , you can run "Stop Moodle.exe" to stop it, after that open your browser the moodle instalation can be in a couple of url's in our case it was at "localhost/Moodle" but it can also be at "http;//127.0.0.1" after you open the url you will be redirected to a moodle instalation page, then you just follow the instalation and fill in the needed fields and you are finished.
+Here are 2 links that show how to install Moodle(we followed the second one):
+1)https://www.youtube.com/watch?v=WuYWftpNONo&t=8s
+2)https://www.youtube.com/watch?v=_S_GNTfMztw&t=842s
 
 ## What we tested
 $$*TODO* Add a description of the module and the user stories that you chose to test.
 For example, in the case of the Moodle example, you can write something like this:
 
 We tested the quiz module that allows for creating and taking quizzes. We chose to test the following user stories: 
+We tested the comment modle that allows for viewing comments and deleting them. We chose to test the following user stories: 
 
-*User story:* A teacher adds a new quiz to the course with two yes/no questions
+*User story:*A student views a comment of a forum
 
-*Preconditions:* There is a course with a teacher
+*Preconditions:* There is a course with a forum, comment and a student.
 
-*Expected outcome:* The quiz is added to the course.
+*Expected outcome:* The Student can view the comment.
 
-*User story:* A students attempts a quiz and answers correctly.
+*User story:*A teacher delets that comment
 
-*Preconditions:* There is a course with a quiz with two yes/no questions and the quiz grade is calculated automatically and the grade is visible to the students upon submission.
+*Preconditions:* There is a course with a forum and a comment.
 
-*Expected outcome:* The student receives 100.
+*Expected outcome:* The student views the comment and the teacher cannot delete it.
 $$
 
 ## How we tested
