@@ -14,10 +14,7 @@ Here are 2 links that show how to install Moodle(we followed the second one):
 2)https://www.youtube.com/watch?v=_S_GNTfMztw&t=842s
 
 ## What we tested
-$$*TODO* Add a description of the module and the user stories that you chose to test.
-For example, in the case of the Moodle example, you can write something like this:
 
-We tested the quiz module that allows for creating and taking quizzes. We chose to test the following user stories: 
 We tested the comment modle that allows for viewing comments and deleting them. We chose to test the following user stories: 
 
 *User story:*A student views a comment of a forum
