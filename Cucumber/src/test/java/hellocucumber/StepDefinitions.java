@@ -18,7 +18,7 @@ public class StepDefinitions {
         private static MoodleActuator moodle;
     private static MoodleActuator moodleStudent;
     private String webDriver = "webdriver.chrome.driver";
-    private String path = "C:\\Users\\Abdalla\\IdeaProjects\\sqe-hw33333andthefinallyone\\chromedriver.exe";
+    private String path = "..\\chromedriver.exe";
     public void moodleInit(){
             System.out.println("-------**------- Initializing MoodleTest and then opening web bage -------**-------");
             if(allMoodles ==null){
