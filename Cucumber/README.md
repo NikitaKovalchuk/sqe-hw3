@@ -1,5 +1,5 @@
 # Testing moodle using Cucumber
-This directory contains the cucumber files for testing the $$*TODO* module name$$ module of the $$*TODO* software name$$ application.
+This directory contains the cucumber files for testing the Comments module of the Moodle application.
 
 ## Running the tests
 Run ```mvn test``` to run all the tests.
